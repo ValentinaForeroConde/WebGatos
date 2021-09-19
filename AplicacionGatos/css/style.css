@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 70px;
+}
+button{
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.mainButton{
+    background-color: green;
+    color: white;
+}
+
+.mainButton:hover{
+    box-shadow: 1px 1px rgb(3, 29, 3);
+}
+.secondaryButton{
+    background-color:blue;
+    color: white;
+}
+.secondaryButton:hover{
+    box-shadow: 1px 1px rgb(92, 92, 255);
+}
