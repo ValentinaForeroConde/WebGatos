@@ -14,8 +14,6 @@ ul{
     align-items: center;
     background-color: rgb(207, 203, 203);
     border-bottom: 1px solid gray;
-
-
 }
 
 .logo{
@@ -63,5 +61,21 @@ button:hover{
 }
 .iconoBusqueda:hover{
     color: blue;
+}
 
+.contenedorImagen{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.contenedorImagen > img{
+    object-fit: cover;
+    width: 100%;
+}
+.breedCardContainer{
+    display: flex;
+}
+.breedCard{
+    margin: 10px;
 }
