@@ -1,3 +1,6 @@
+html{
+    background-color: #8BC2DB;
+}
 body{
     margin: 0px;
 }
@@ -29,19 +32,19 @@ button:hover{
     transform: scale(1.1);
 }
 .mainButton{
-    background-color: green;
+    background-color: #42525C;
     color: white;
 }
 
 .mainButton:hover{
-    box-shadow: 1px 1px rgb(3, 29, 3);
+    box-shadow: 1px 1px #5FAFE1;
 }
 .secondaryButton{
-    background-color:blue;
+    background-color:#9EC4DB;
     color: white;
 }
 .secondaryButton:hover{
-    box-shadow: 1px 1px rgb(92, 92, 255);
+    box-shadow: 1px 1px #5FAFE1;
 }
 .buscar{
     background-color:white;
@@ -84,7 +87,7 @@ button:hover{
 }
 .breedCard{
     margin: 10px;
-    background-color: rgb(78, 78, 90);
+    background-color: #1F495C;
     box-shadow: 5px 10px 5px rgb(218, 209, 209);
     border-radius: 10px;
 }
@@ -95,7 +98,7 @@ button:hover{
     font-size: x-large;
 }
 h1{
-    color: rgb(63, 61, 61);
+    color: #1F495C;
     font-size: x-large;
     font-weight: bold;
     display: flex;
