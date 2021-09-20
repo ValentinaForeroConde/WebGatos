@@ -68,14 +68,42 @@ button:hover{
     height: 350px;
     display: flex;
 }
-
+.contenedorImagen:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
 .contenedorImagen > img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-bottom: 10px;
 }
 .breedCardContainer{
     display: flex;
 }
 .breedCard{
+    margin: 10px;
+    background-color: rgb(78, 78, 90);
+    box-shadow: 5px 10px 5px rgb(218, 209, 209);
+    border-radius: 10px;
+}
+.breedTitle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
+h1{
+    color: rgb(63, 61, 61);
+    font-size: x-large;
+    font-weight: bold;
+    display: flex;
+}
+
+.reactions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin: 10px;
 }
