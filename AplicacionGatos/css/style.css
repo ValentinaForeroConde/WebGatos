@@ -101,7 +101,8 @@ h1{
     color: #1F495C;
     font-size: x-large;
     font-weight: bold;
-    display: flex;
+    display: block;
+    text-align: center;
 }
 
 .reactions{
@@ -109,4 +110,12 @@ h1{
     align-items: center;
     justify-content: space-between;
     margin: 10px;
+}
+.fa-heart{
+    color: red;
+}
+
+i:hover{
+    cursor: pointer;
+    transform: scale(1.2);
 }
