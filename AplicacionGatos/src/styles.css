@@ -1,0 +1,121 @@
+html{
+  background-color: #8BC2DB;
+}
+body{
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(207, 203, 203);
+  border-bottom: 1px solid gray;
+}
+
+.logo{
+  height: 70px;
+}
+button{
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.mainButton{
+  background-color: #42525C;
+  color: white;
+}
+
+.mainButton:hover{
+  box-shadow: 1px 1px #5FAFE1;
+}
+.secondaryButton{
+  background-color:#9EC4DB;
+  color: white;
+}
+.secondaryButton:hover{
+  box-shadow: 1px 1px #5FAFE1;
+}
+.buscar{
+  background-color:white;
+  border: solid 1px gray;
+  padding: 4px;
+  border-radius: 8px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+.buscar:focus-within{
+  border: 1px solid blue;
+}
+.buscar > input{
+  outline: none;
+  border: none;
+}
+.iconoBusqueda:hover{
+  color: blue;
+}
+
+.contenedorImagen{
+  width: 240px;
+  height: 350px;
+  display: flex;
+}
+.contenedorImagen:hover{
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.contenedorImagen > img{
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-bottom: 10px;
+}
+.breedCardContainer{
+  display: flex;
+}
+.breedCard{
+  margin: 10px;
+  background-color: #1F495C;
+  box-shadow: 5px 10px 5px rgb(218, 209, 209);
+  border-radius: 10px;
+}
+.breedTitle{
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+h1{
+  color: #1F495C;
+  font-size: x-large;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.reactions{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+.fa-heart{
+  color: red;
+}
+
+i:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
